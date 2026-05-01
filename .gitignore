@@ -1,0 +1,16 @@
+# Large data (symlinked from old repo)
+data
+checkpoints
+reference_repos
+cache/
+results/experiments/cached_eigenvectors/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
