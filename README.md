@@ -17,30 +17,6 @@ We investigate whether the geometry-adaptive spectral structure of diffusion mod
 
 All models share the same 295.9M-parameter class-conditional UNet architecture. Any spectral differences are process-dependent.
 
-## Repository Structure
-
-```
-src/                          # Core library
-  jacobian.py                 #   Halko randomised eigendecomposition
-  bases.py                    #   Reference bases (DCT, edge Laplacian) and harmonicity
-  basis_map.py                #   Teacher-student basis map M = V_S V_T^T
-  eigenvalues.py              #   Effective rank and spectral analysis
-  models/                     #   Model loading (EDM, consistency, Kadkhodaie)
-  data.py                     #   ImageNet-64 data loading
-  sampling.py                 #   EDM and consistency sampling
-
-scripts/
-  final_replication.py        #  30 images, all analyses
-
-
-results/
-  experiments/
-    final_replication.json    #   All numerical results reported in the paper
-  reproduction/
-    phase_c_results.json      #   C^α PSNR scaling law validation
-    phase_d_results.json      #   CelebA memorisation-to-generalisation validation
-```
-
 ## Reproduction
 
 ### Pipeline Validation (Section 4)
