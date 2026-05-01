@@ -57,7 +57,7 @@ results/
 
 
 
-## References
+## Key References
 
 - Kadkhodaie, Z., Guth, F., Simoncelli, E. P., & Mallat, S. (2024). Generalization in diffusion models arises from geometry-adaptive harmonic representations. ICLR 2024.
 - Karras, T., Aittala, M., Aila, T., & Laine, S. (2022). Elucidating the design space of diffusion-based generative models. NeurIPS 2022.
