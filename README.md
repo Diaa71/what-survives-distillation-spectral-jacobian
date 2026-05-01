@@ -4,7 +4,7 @@
 
 Manar Hamed, Diaa Azzam, Omid Reza Heidari
 
-We investigate whether the geometry-adaptive spectral structure of diffusion model Jacobians survives consistency distillation. Analysing an EDM teacher and three consistency-distilled students sharing the same 295.9M-parameter UNet on ImageNet-64, we report three findings:
+We investigate whether the geometry-adaptive spectral structure of diffusion model Jacobians survives consistency distillation. Analysing an EDM teacher and three consistency-distilled students sharing the same 295.9M-parameter UNet on ImageNet-64. 
 
 ## Models
 
@@ -45,7 +45,6 @@ results/
 
 ### Pipeline Validation (Section 4)
 
-We independently reproduced from Kadkhodaie et al. (2024):
 - PSNR scaling law α/(α+1) across 5 regularity values (within 9% of theory)
 - Jacobian eigenvector structure on C^α images (all 5 α values)
 
